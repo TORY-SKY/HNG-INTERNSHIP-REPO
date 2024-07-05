@@ -11,7 +11,7 @@ setInterval(function() {
     // Getting am or pam
     const ampm = now.getUTCHours() >= 12 ? "pm" : "am";
     const days = ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    const dayOfWeek = days[now.getUTCDay()];
+    const dayOfWeek = days[now.getUTCDay() -1 ];
 
     // const utcTime = `${dayOfWeek}- ${month.}`
 
