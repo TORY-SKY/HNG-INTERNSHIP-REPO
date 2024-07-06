@@ -59,7 +59,8 @@ body{
   text-align: center;
  }
  .the-goals{
-  background-color: beige;
+  background-color: black;
+  color: white;
   overflow: hidden;
   padding: 12px;
   margin-bottom: 8px;
